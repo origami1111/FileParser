@@ -18,6 +18,7 @@ namespace FileParser
                 "\n2. <путь к файлу> <строка для поиска> <строка для замены>");
             Console.WriteLine("========================================================");
         }
+        
         private void PrintHelp()
         {
             Console.WriteLine("========================================================");
@@ -26,6 +27,7 @@ namespace FileParser
                 "\n-task - выводит условие задания");
             Console.WriteLine("========================================================");
         }
+        
         public void PrintInstructions(string[] args)
         {
             if (args.Length == 0)
@@ -51,6 +53,7 @@ namespace FileParser
                 }
             }
         }
+        
         public void SetParameters()
         {
             bool flag = true;
