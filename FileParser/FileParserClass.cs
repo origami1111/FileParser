@@ -16,12 +16,14 @@ namespace FileParser
             this.filePathSource = filePathSource;
             this.searchStr = strCounting;
         }
+        
         public FileParserClass(string filePathSource, string searchStr, string replacementStr)
         {
             this.filePathSource = filePathSource;
             this.searchStr = searchStr;
             this.replacementStr = replacementStr;
         }
+        
         public int QuantityStr()
         {
             int quantity = 0;
